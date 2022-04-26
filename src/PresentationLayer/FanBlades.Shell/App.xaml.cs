@@ -1,4 +1,4 @@
-﻿using FanBlades.Detectioin;
+﻿using FanBlades.Detection;
 using FanBlades.Shared;
 using Prism.Ioc;
 using Prism.Modularity;
@@ -7,9 +7,6 @@ using System.Windows;
 
 namespace FanBlades.Shell
 {
-    /// <summary>
-    /// Interaction logic for App.xaml
-    /// </summary>
     public partial class App : PrismApplication
     {
         protected override Window CreateShell()

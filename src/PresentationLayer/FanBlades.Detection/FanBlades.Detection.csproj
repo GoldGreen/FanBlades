@@ -9,4 +9,10 @@
     <ProjectReference Include="..\FanBlades.Shared\FanBlades.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="ReactiveUI.Fody" Version="16.4.15" />
+    <PackageReference Include="ReactiveUI.WPF" Version="16.4.15" />
+    <PackageReference Include="System.Drawing.Common" Version="5.0.2" />
+  </ItemGroup>
+
 </Project>

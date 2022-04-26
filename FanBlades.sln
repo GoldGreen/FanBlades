@@ -9,11 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLayer", "BusinessLa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FanBlades.Shell", "src\PresentationLayer\FanBlades.Shell\FanBlades.Shell.csproj", "{5BAA9F4D-C577-4396-BB40-91337B8B2A7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FanBlades.Shared", "src\PresentationLayer\FanBlades.Shared\FanBlades.Shared.csproj", "{4BF402A2-5930-4135-B32F-CB47917836AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FanBlades.Shared", "src\PresentationLayer\FanBlades.Shared\FanBlades.Shared.csproj", "{4BF402A2-5930-4135-B32F-CB47917836AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FanBlades.Detectioin", "src\PresentationLayer\FanBlades.Detectioin\FanBlades.Detectioin.csproj", "{AEA2490D-9ED2-4CAA-93CD-BFF3B39ADB57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FanBlades.BusinessLayer", "src\BusinessLayer\FanBlades.BusinessLayer\FanBlades.BusinessLayer.csproj", "{6EF12BD0-2EAD-4374-9B76-C1D561F6080D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FanBlades.BusinessLayer", "src\BusinessLayer\FanBlades.BusinessLayer\FanBlades.BusinessLayer.csproj", "{6EF12BD0-2EAD-4374-9B76-C1D561F6080D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FanBlades.Detection", "src\PresentationLayer\FanBlades.Detection\FanBlades.Detection.csproj", "{29700E7B-7516-4FF7-937A-EB79A5A06DA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,14 +29,14 @@ Global
 		{4BF402A2-5930-4135-B32F-CB47917836AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BF402A2-5930-4135-B32F-CB47917836AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BF402A2-5930-4135-B32F-CB47917836AD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AEA2490D-9ED2-4CAA-93CD-BFF3B39ADB57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AEA2490D-9ED2-4CAA-93CD-BFF3B39ADB57}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AEA2490D-9ED2-4CAA-93CD-BFF3B39ADB57}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AEA2490D-9ED2-4CAA-93CD-BFF3B39ADB57}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6EF12BD0-2EAD-4374-9B76-C1D561F6080D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6EF12BD0-2EAD-4374-9B76-C1D561F6080D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EF12BD0-2EAD-4374-9B76-C1D561F6080D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EF12BD0-2EAD-4374-9B76-C1D561F6080D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29700E7B-7516-4FF7-937A-EB79A5A06DA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29700E7B-7516-4FF7-937A-EB79A5A06DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29700E7B-7516-4FF7-937A-EB79A5A06DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29700E7B-7516-4FF7-937A-EB79A5A06DA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,8 +44,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5BAA9F4D-C577-4396-BB40-91337B8B2A7C} = {1DDEA2BA-8913-42B0-AD9A-76B086F7CBB6}
 		{4BF402A2-5930-4135-B32F-CB47917836AD} = {1DDEA2BA-8913-42B0-AD9A-76B086F7CBB6}
-		{AEA2490D-9ED2-4CAA-93CD-BFF3B39ADB57} = {1DDEA2BA-8913-42B0-AD9A-76B086F7CBB6}
 		{6EF12BD0-2EAD-4374-9B76-C1D561F6080D} = {C3BEE7B2-6008-4718-B184-A1CC90323C59}
+		{29700E7B-7516-4FF7-937A-EB79A5A06DA6} = {1DDEA2BA-8913-42B0-AD9A-76B086F7CBB6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83692697-3CE0-4A5A-9AB8-73D2EB1F179C}
