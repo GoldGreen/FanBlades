@@ -1,0 +1,16 @@
+﻿<Window
+    x:Class="FanBlades.Shell.Shell"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:FanBlades.Shell"
+    xmlns:shViews="clr-namespace:FanBlades.Shared.Views;assembly=FanBlades.Shared"
+    xmlns:prism="http://prismlibrary.com/"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Лопатки"
+    Width="1280"
+    Height="900"
+    WindowStartupLocation="CenterScreen"
+    mc:Ignorable="d">
+    <ContentControl prism:RegionManager.RegionName="{x:Static shViews:GlobalRegions.DetectionRegion}"/>
+</Window>
